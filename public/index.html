@@ -9,17 +9,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="p-2 h-fit">
-    <div class="bg-white flex flex-col justify-center items-center p-10 border-2 border-solid gap-5 border-black rounded-2xl h-fit">
+<body class="p-2 h-fit" id="bg">
+    <div class="bg-transparent flex flex-col justify-center items-center p-10 border-2 border-solid gap-5 border-black rounded-2xl h-fit">
 
-            <button class="bg-white border-solid border-2 rounded-full border-black w-10 h-10" id="change-color" onclick="darkMode()">☀</button>
+            <button class="bg-transparent border-solid border-2 rounded-full border-black w-10 h-10" id="change-color" onclick="darkMode()">☀</button>
 
-            <div class="flex flex-row bg-white border-solid border-2 border-black p-2 rounded-xl justify-between" id="BAR1">
+            <div class="flex flex-row bg-transparent border-solid border-2 border-black p-2 rounded-xl justify-between" id="BAR1">
                 <input type="text" placeholder="SEARCH FOR A GITHUB USER"  id="display">
-                <button class="bg-white border-solid border-black border-2 p-2 rounded-xl" id="searcher" onclick="fetchuserInfo()"> SEARCH </button>
+                <button class="bg-transparent border-solid border-black border-2 p-2 rounded-xl" id="searcher" onclick="fetchuserInfo()"> SEARCH </button>
             </div>
             <!--First row containing User name and details, -->
-            <div class="flex flex-row justify-between p-5 items-center border-solid border-2 border-black rounded-xl h-fit" id="imagesection">
+            <div class="bg-transparent flex flex-row justify-between p-5 items-center border-solid border-2 border-black rounded-xl h-fit" id="imagesection">
 
                 <div class="flex justify-center rounded-xl border-solid border-2 border-black" id="img">
                     <img src="assets/PH.webp" alt="" id="user-image">
